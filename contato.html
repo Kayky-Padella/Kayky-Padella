@@ -1,0 +1,95 @@
+<!DOCTYPE html> 
+
+    <html lang="pt-br"> 
+	<head>
+
+		<title> Fale Conosco</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, inicial-scale=1">
+		<link rel="icon" type="image/png" href="image/logo.png">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</head>
+	<body>
+
+			<div id="header">
+
+				<div class="logo">
+					<a href="index.html"> <image src="image/logo.png" width="40px"></a>
+				</div>
+
+				<div class="menu-btn">
+					<i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+				</div>
+
+				<ul>
+					<li> <a href="index.html" class="ativa"> Home</a></li>
+					<li> <a href="sobre.html">Sobre </a></li>
+					<li> <a href="modelo.html">Modelo </a></li>
+					<li> <a href="contato.html">Fale Conosco</a></li>
+				</ul>
+
+			</div>
+
+				<script src="main.js"></script> 
+
+			<div id="container">
+
+                <br>
+                    <center> <div id ="titulo"><b> Página de contato: Fale conosco</b></div>
+                    <br>
+                    <img id="sbpen" src="image/tt.png"> </center>
+                    <br> 
+                <div class ="contato">
+
+                    Por favor, todos fiquem à vontade para me enviar quaisquer comentários, sugestões e críticas! 
+                   
+                    <form name="contato" action="resp.html" method="post">
+                        <br><label>
+                            <b>Nome completo <font color="#800020">(obrigatório)</font>:</b><br>
+                            <input type="text " required="required" name="nome" id="text12" placeholder="Preencha aqui o seu nome!" autofocus />
+                        </label> <br> <br>
+                        <label>
+                            <b>E-mail  <font color="#800020">(obrigatório)</font>:</b> <br>
+                            <input type="email" required="required" name="email" id="text12" placeholder="Preencha aqui o seu email!" autofocus />
+                        </label> <br><br>
+                        <label>
+                            <b>Telefone <font color="#800020">(obrigatório)</font>:</b><br>
+                            <input type="tel" required="required" name="telefone" id="text12" placeholder="Preencha aqui o seu telefone!" autofocus />
+                        </label> <br><br>
+                        <label>
+                            <b>Assunto<font color="#800020">(obrigatório)</font>:</b><br>
+                            <input type="text" required="required" name="assunto" id="text12" placeholder="Preencha  aqui o assunto " autofocus />
+                        </label><br>
+                        <textarea name="textarea" id="text12" rows="10" placeholder="Deixe aqui seu comentário."></textarea></label> <br> <br>
+                        <button type="submit" class="but"> Enviar </button>
+                        <button type="reset" name="limpa" class="bu"> Limpar </button>
+                    </form> <br>
+                </div>
+
+            </div> 
+            <div class="footer">
+
+                <div class="seta" align="right">
+    
+                    <a href="#">
+                        <img src="image/set.png" width="30">
+                    </a>
+    
+                </div>
+    
+                    <p>
+                        Kayky Padella 2023 - &copyTodos os direitos reservados
+                    </p>
+    
+            </div>
+
+	</body>
+
+</html>
+
+
+
+
+
